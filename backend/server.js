@@ -14,5 +14,5 @@ app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 
 app.listen(3000, ()=>{
-    console.log("Server is running on the port ")
+    console.log("Server is running on the port 3000 ")
 })
